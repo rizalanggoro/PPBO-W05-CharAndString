@@ -56,7 +56,7 @@ public class PPBO_05_L0122142 {
 
     System.out.println("Petunjuk:");
     System.out.println("- Masukkan nomor telepon Anda dengan format");
-    System.out.println("  berikut \"<kode_negara> <no_telepon>\".");
+    System.out.println("  berikut \"<kode_negara><spasi><no_telepon>\".");
     System.out.println("  Contoh: \"+62 89612345678\"");
     System.out.println("          \"0044 91234567891\"");
     System.out.println("- Gunakan kata kunci \"done\" untuk mengakhiri");

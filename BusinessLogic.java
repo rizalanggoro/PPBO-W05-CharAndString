@@ -18,7 +18,7 @@ public class BusinessLogic {
 
   public boolean validatePhoneNumber(String number) {
     return validate(
-        Pattern.compile("^((\\+|00)(\\d{1,3})(\\s?)?([0-9]{10,15}))$"),
+        Pattern.compile("^((\\+|00)(\\d{1,3}) ([0-9]{10,15}))$"),
         number
     );
   }
